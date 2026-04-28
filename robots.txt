@@ -12,7 +12,14 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# Bloquear bots indesejados (opcional - bots agressivos de scraping)
+# Permitir crawler do Facebook/Meta
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+# Bloquear bots indesejados
 User-agent: AhrefsBot
 Crawl-delay: 10
 
